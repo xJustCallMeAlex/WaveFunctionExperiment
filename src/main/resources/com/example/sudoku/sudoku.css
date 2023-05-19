@@ -1,0 +1,11 @@
+.mainPane {
+    -fx-background-color: #c1dff5;
+}
+
+.sidePane {
+    -fx-background-color: #9db8cc;
+}
+
+.gameGrid {
+    -fx-padding: 100 0 0 270;
+}

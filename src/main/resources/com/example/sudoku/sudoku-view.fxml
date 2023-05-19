@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<HBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.sudoku.SudokuController"
+      stylesheets="@sudoku.css"
+      prefHeight="700.0" prefWidth="1400.0">
+    <AnchorPane styleClass="mainPane" prefWidth="1100.0">
+        <GridPane fx:id="gameGrid" styleClass="gameGrid">
+
+        </GridPane>
+
+    </AnchorPane>
+    <AnchorPane styleClass="sidePane" prefWidth="300.0" >
+        <VBox>
+
+
+        </VBox>
+
+
+    </AnchorPane>
+
+
+</HBox>
